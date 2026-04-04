@@ -4,7 +4,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #98FB98; /* Light green forest background */
+  background-color: #98fb98; /* Light green forest background */
   color: #333; /* Default text color */
   position: relative;
 }
@@ -35,18 +35,13 @@ footer {
   color: #0e0d0d;
 }
 
-/* Butterfly image */
-.butterfly {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: auto;
-}
-
 /* Animations for lively feel */
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
